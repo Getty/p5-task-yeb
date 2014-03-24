@@ -15,17 +15,27 @@ You should have at least 5.10.1
 
 =pkgroup Base plugins
 
-=pkg Yeb::Plugin::Session 0.001
+=pkg Yeb::Plugin::Session 0.100
 
 Session handling via L<Plack::Middleware::Session>
 
-=pkg Yeb::Plugin::JSON 0.001
+=pkg Yeb::Plugin::Locale::Simple 0.001
+
+Localization via L<Locale::Simple>
+
+=pkgroup Views
+
+=pkg Yeb::Plugin::Xslate 0.100
+
+Templates with L<Text::Xslate>
+
+=pkg Yeb::Plugin::JSON 0.101
 
 JSON responses using L<JSON::MaybeXS>
 
-=pkg Yeb::Plugin::Xslate 0.001
+=pkg Yeb::Plugin::GeoJSON 0.002
 
-L<Text::Xslate> plugin
+Generating GeoJSON output via L<Geo::JSON::Simple> functions
 
 =cut
 
