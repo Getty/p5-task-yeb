@@ -11,7 +11,7 @@ You should have at least 5.10.1
 
 =pkgroup Yeb core
 
-=pkg Yeb 0.100
+=pkg Yeb 0.102
 
 =pkgroup Base plugins
 
@@ -19,9 +19,15 @@ You should have at least 5.10.1
 
 Session handling via L<Plack::Middleware::Session>
 
-=pkg Yeb::Plugin::Locale::Simple 0.001
+=pkg Yeb::Plugin::Locale::Simple 0.002
 
 Localization via L<Locale::Simple>
+
+=pkgroup Models
+
+=pkg Yeb::Plugin::DBIC 0.100
+
+Accessing a L<DBIx::Class> schema
 
 =pkgroup Views
 
@@ -33,7 +39,7 @@ Templates with L<Text::Xslate>
 
 JSON responses using L<JSON::MaybeXS>
 
-=pkg Yeb::Plugin::GeoJSON 0.002
+=pkg Yeb::Plugin::GeoJSON 0.003
 
 Generating GeoJSON output via L<Geo::JSON::Simple> functions
 
