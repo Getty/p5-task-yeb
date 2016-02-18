@@ -25,7 +25,7 @@ Localization via L<Locale::Simple>
 
 =pkgroup Models
 
-=pkg Yeb::Plugin::DBIC 0.100
+=pkg Yeb::Plugin::DBIC 0.001
 
 Accessing a L<DBIx::Class> schema
 
